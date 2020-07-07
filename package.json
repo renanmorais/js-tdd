@@ -4,6 +4,8 @@
   "description": "biblioteca do curso de js com tdd na prática",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/renanmorais/js-tdd/issues"
   },
-  "homepage": "https://github.com/renanmorais/js-tdd#readme"
+  "homepage": "https://github.com/renanmorais/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5"
+  }
 }
