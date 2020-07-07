@@ -1,5 +1,5 @@
 const a = 3;
-const b = 2;
+const b = 2
 const c = 'abcdes'
 
 function sum() {
@@ -7,3 +7,4 @@ function sum() {
 }
 
 sum();
+
