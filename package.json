@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "biblioteca do curso de js com tdd na prática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanmorais/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Renan Morais <renanc.morais@gmail.com> (http://github.com/renanmorais)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanmorais/js-tdd/issues"
+  },
+  "homepage": "https://github.com/renanmorais/js-tdd#readme"
+}
