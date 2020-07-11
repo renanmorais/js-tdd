@@ -1,9 +1,14 @@
-const a = 3;
-const b = 2;
-const c = 'abcdes';
-
-function sum() {
-  return a + b + c;
-}
-
-sum();
+module.exports = {
+  sum(num1, num2) {
+    return num1 + num2;
+  },
+  sub(num1, num2) {
+    return num1 - num2;
+  },
+  div(num1, num2) {
+    return (num2 === 0) ? 'Não é possivel divisão por zero!' : num1 / num2;
+  },
+  mult(num1, num2) {
+    return num1 * num2;
+  },
+};
